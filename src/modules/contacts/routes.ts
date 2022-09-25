@@ -2,6 +2,6 @@ import { Router } from "express";
 import { getContacts, sendMessageToContact } from "./controllers";
 
 export const initializeContactsRoutes = (router: Router) => {
-  router.get("/contacts", getContacts);
-  router.post("/send-message", sendMessageToContact);
+  router.get("/api/contacts", getContacts);
+  router.post("/api/send-message", sendMessageToContact);
 };
