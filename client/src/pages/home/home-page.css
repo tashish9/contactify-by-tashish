@@ -1,0 +1,44 @@
+.background {
+  height: 100vh;
+  width: 100vw;
+  background: url("../../../images/landing-page.png") no-repeat;
+  background-size: cover;
+  background-position: 85% 40%;
+  position: fixed;
+}
+
+.page-content-container {
+  position: absolute;
+  text-align: center;
+  width: min(600px, 100vw);
+}
+
+.text-container {
+  top: 42%;
+  left: 5%;
+  transform: translateY(-50%);
+  color: rgb(0, 0, 0, 0.9);
+}
+
+.heading {
+  font-size: 5rem;
+  letter-spacing: 2px;
+  font-weight: 600;
+  text-transform: uppercase;
+}
+
+.sub-heading {
+  font-size: 1.2rem;
+  text-align: center;
+}
+
+.actions-container {
+  margin-top: 2rem;
+  top: 55%;
+  left: 5%;
+  transform: translateY(-50%);
+  display: flex;
+  gap: 2rem;
+  align-items: center;
+  justify-content: center;
+}

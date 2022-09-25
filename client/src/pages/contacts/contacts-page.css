@@ -1,0 +1,42 @@
+.contacts-container {
+  min-height: 100vh;
+}
+
+.contacts-list {
+  /* text-align: center; */
+  padding: 1rem 4rem;
+}
+
+.contacts-heading {
+  text-align: center;
+  font-size: 4rem;
+}
+
+.contact-name {
+  display: block;
+  border-top: 1px solid #d9d9d9;
+  padding: 0.5rem 0;
+  list-style: none;
+  text-decoration: none;
+  color: initial;
+}
+
+.demo-group {
+  display: grid;
+  grid-template-columns: min-content 1fr;
+  gap: 0.5rem;
+  margin: 0.5rem;
+}
+
+.contact-list-heading {
+  font-weight: 700;
+  border-top: none;
+  padding: 0.5rem 0;
+  list-style: none;
+  text-decoration: none;
+  color: initial;
+}
+
+.contact-name:hover {
+  color: #56b2a9;
+}

@@ -1,0 +1,26 @@
+.contact-info-card {
+  text-align: center;
+  margin: 7rem auto;
+  height: 300px;
+  width: 600px;
+  background-color: #56b2a9;
+  font-size: 1.5rem;
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.5);
+}
+
+.contact-info-header {
+  padding: 1rem 1rem 0 1rem;
+  text-align: center;
+  font-size: 3.5rem;
+  font-weight: 400;
+}
+
+.contact-data {
+  padding: 2rem;
+}
+
+.contact-data > div {
+  padding: 8px;
+  display: flex;
+  justify-content: space-between;
+}
