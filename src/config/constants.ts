@@ -1,7 +1,3 @@
-import { config } from "dotenv";
-
-config();
-
 const { PORT, TWILIO_ACCOUNT_SID, NODE_ENV, TWILIO_AUTH_TOKEN, FROM_NUMBER } =
   process.env;
 
