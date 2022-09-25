@@ -1,0 +1,30 @@
+.main-nav {
+  display: flex;
+  width: 100vw;
+  position: fixed;
+  z-index: 2;
+  justify-content: space-evenly;
+  background-color: teal;
+  top: 0;
+}
+
+.main-nav-left {
+  text-align: center;
+  width: 50%;
+}
+
+.main-nav a {
+  display: block;
+  text-decoration: none;
+  color: #d9d9d9;
+  font-size: 1.5rem;
+  padding: 1rem;
+  /* background-color: #56b2a9; */
+}
+
+.main-nav-right {
+  width: 50%;
+  display: flex;
+  justify-content: center;
+  gap: 6rem;
+}

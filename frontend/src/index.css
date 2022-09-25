@@ -1,0 +1,23 @@
+@import url("https://fonts.googleapis.com/css2?family=Finlandica:wght@400;500;600;700&display=swap");
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Finlandica", sans-serif;
+}
+
+body {
+  background-color: #0786b8;
+}
+
+.generic-button {
+  scale: 1.1;
+  font: inherit;
+  padding: 8px 1rem;
+  border-radius: 4px;
+  background-color: #195786;
+  color: #d9d9d9;
+  letter-spacing: 0.5px;
+  text-decoration: none;
+}
